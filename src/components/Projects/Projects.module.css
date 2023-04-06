@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 80px;
+    margin-left: 20%; /* delete this if you need add more projects and also everything with <1> */
+    width: 90%;  /* <1> */
+}
+
+.projectbox{
+    border-color: #a1a1a1;
+    background-color: #dddcdc;
+    width: 20%;
+    margin: 1rem;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+}
+
+.boximg{
+    align-items: center;
+    position: relative;
+    height: auto;
+    width: 23rem;
+    margin: 1%;
+    padding: 2%;
+    padding-left: 5%;  /* <1> */
+    padding-right: 5%;  /* <1> */
+}
+
+.boxh2{
+    text-align: center;
+}
+
+.boxA{
+    width: 100px;
+    padding: 7px;
+    border: 1px solid #049292;
+    background-color: #049292;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.1s;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.boxA:hover{
+    background-color: #fff;
+    color: #049292;
+}

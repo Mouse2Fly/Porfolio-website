@@ -1,0 +1,86 @@
+.container{
+    padding-top: 80px;
+    width: 60%;
+    border: 1px solid #fff;
+    background-color: #dddcdc;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.formbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;    
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin-top: 15px;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+.inputname{
+    padding: 5px;
+    width: 100%;
+}
+
+.inputemail{
+    width: 100%;
+    padding: 5px;
+}
+
+.inputquestion{
+    width: 100%;
+    padding: 5px;
+    height: 100px;
+}
+
+.submitbtn{
+    width: 100px;
+    padding: 7px;
+    border: 1px solid #049292;
+    background-color: #049292;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.1s;
+    margin-top: 20px;
+}
+
+.submitbtn:hover{
+    background-color: #fff;
+    color: #049292;
+}
+
+.split{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;    
+    justify-content: center;
+    align-items: center;
+}
+
+.pages{
+    background-color: #049292;
+    padding: 6px;
+    padding-top: 8px;
+    border-radius: 5px;
+    transition: 0.1s;
+    margin: 5px;
+    color: #fff;
+}
+
+.pages:hover{
+    padding: 12px;
+}
