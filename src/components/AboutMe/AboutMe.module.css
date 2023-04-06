@@ -1,8 +1,96 @@
 .box1{
+    padding-top: 80px;
     height: 100vh;
-    background-color: aqua;
 }
+
+.box3{
+    margin-top: 250px;
+    margin-left: 100px;
+    position: absolute;
+}
+
 .box2{
     height: 100vh;
-    background-color: blueviolet;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.descriptionFront{
+    border: 1px solid #a1a1a1;
+    background-color: #dddcdc;
+    width: 576px;
+    height: 80px;
+    margin: 20px;
+    margin-right: 80px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.descriptionBack{
+    border: 1px solid #a1a1a1;
+    background-color: #dddcdc;
+    width: 576px;
+    margin: 20px;
+    margin-left: 80px;
+    height: 80px;
+    border-radius: 15px;
+    transition: 0.5s;
+
+}
+
+.descriptionBack:hover{
+    background-color: #049292;
+    height: 500px;
+}
+
+.descriptionFront:hover{
+    background-color: #049292;
+    height: 500px;
+}
+
+.descriptionFront:hover .names{
+    color: #fff;
+} 
+
+.descriptionBack:hover .names{
+    color: #fff;
+}
+
+.descriptionFront:hover ul{
+    opacity: 1;
+} 
+
+.descriptionBack:hover ul{
+    opacity: 1;
+}
+
+.names{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    opacity: 0;
+    color: #fff
+}
+li{
+    padding: 12px;
+    width: 50%;
+    font-weight: bold;
+    font-size: larger;
+}
+p{
+    font-weight: normal;
+    font-size: small;
 }
