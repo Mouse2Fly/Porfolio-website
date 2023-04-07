@@ -5,7 +5,7 @@ import styles from "./AboutMe.module.css"
 const AboutMe = () => {
 
     return(
-        <div>
+        <div className={styles.container}>
             <div className={styles.box1}>
                 <div className={styles.box3}>
                     <h2 style={{ fontSize: '4em'}}>Hello</h2>
